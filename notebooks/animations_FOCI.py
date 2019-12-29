@@ -3,7 +3,7 @@
 # The function animate_2D_FOCI only plots the data on the FOCI model grid.
 # The function animate_2D_FOCI_cartopy also uses cartopy for the
 # projection of the data, so that you can choose one.
-b
+
 from matplotlib import pyplot as plt, animation
 import xarray as xr
 import cartopy.crs as ccrs
